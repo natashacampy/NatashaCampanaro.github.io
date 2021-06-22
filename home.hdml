@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<!doctype html>
+<html lang=en>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Natasha Campanaro</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name= "description=" content= "Natasha Campanaro is a Mathematitian with a passion for education and a strive to research to learn more about the world of Mathematics."> 
+</head>
+
+<body>
+    <h1 class="title">Natasha Campanaro</h1>
+    <!--Natasha Campanaro-->
+    <img src= Tashpicgrad.JPG style= height: 50px; alt="Natasha Graduation Photo"/>
+    <h5>By: Natasha Campanaro</h5>
+<nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>  
+            <li><a href="honors.html">Honors</a></li>  
+            <li><a href="travel.html">Travel</a></li>  
+        </ul>
+    </nav>   
+    <div id="home.html">
+    <h2>Introduction</h2>
+        <p>Hello! My name is Natasha Campanaro and I am a student at Florida Gulf Coast University. I am from a beach community in west- central Florida. </p>
+            
+    <h2>About Me</h2>
+        <p>I was born and raised in Palm Harbor, Florida. Palm Harbor is a town in west-central Florida, near Tampa. </p>
+        <p> To learn more about me, find my contact information, or view my Linkdin, please follow the link below.</p>  
+    <a href="childhood.html">Childhood</a>
+    
+    <h2>My CV</h2>
+    <ol>
+        <li>Sutherland Elementary School</li>
+        <li>Palm Harbor Middle School</li>
+        <li>Palm Harbor University High School</li>
+    </ol>
+    <p>To read my CV or see a downloadable version, please follow the link below.</p>
+    <a href= "cv.html">CV</a>
+    
+    <h2>Research</h2>
+        <ol>
+            <li>History of Mathematics</li>
+        </ol>
+        <p>To learn more about research experiences or view my abstracts, please follow the link below.</p>
+        <a href="research.html">Research</a>
+    
+    <h2>Teaching</h2>
+        <ol>
+            <li>Graduate Teaching Assistant</li>
+        </ol>
+        <p>To learn more about teaching experiences and view syllabi, please follow the link below.</p>
+        <a href="teaching.html">Work</a>
+        
+    <h2>Honors and Awards</h2>
+        <ol>
+            <li>Honors College</li>
+        </ol>
+        <p>To learn more about honors and awards, please follow the link below.</p>
+        <a href="honors.html">Honors</a>
+    
+    <h2>Travel</h2>
+        <ol>
+            <li>Joint Math Meetings</li>
+            <li>GROW in Mathematics</li>
+        </ol>
+        <p>To learn more about where I have been and where I am going, please follow the link below.</p>
+        <a href="travel.html">Travel</a>
+    
+    <p><canvas id="myCanvas" width="800" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>    
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillText("Natasha Campanaro", 300, 50); 
+        </script></p>
+</body>
+
+</html>      
